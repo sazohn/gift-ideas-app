@@ -1,16 +1,42 @@
-# React + Vite
+🎁 Gift Ideas App
+A simple and interactive React application that helps users generate gift ideas based on age and preferences, and allows them to save and manage selected gifts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+- Generate gift ideas based on user preference (Tech, Sports, Study)
+- Save favorite gifts
+- Delete saved gifts
+- Persistent storage using localStorage
+- Fast and responsive UI with React
 
-Currently, two official plugins are available:
+🛠️ Built With
+- React (Functional Components + Hooks)
+- JavaScript (ES6)
+- CSS (Custom styling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Project Structure
+src/
+│
+├── components/
+│   ├── GiftContainer.jsx
+│   ├── GiftForm.jsx
+│   ├── IdeaList.jsx
+│   ├── IdeaCard.jsx
+│   ├── SavedGifts.jsx
+│   ├── Button.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
 
-## React Compiler
+📸 Screenshot
+<img width="1068" height="1010" alt="Screenshot 2026-03-31 104340" src="https://github.com/user-attachments/assets/5326ce0d-ea87-4be5-b5ae-eda71c0760fb" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/gift-ideas-app.git
+2. Navigate to project folder
+cd gift-ideas-app
+3. Install dependencies
+npm install
+4. Run the app
+npm run dev
